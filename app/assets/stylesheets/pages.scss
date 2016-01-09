@@ -22,6 +22,7 @@
   padding-top: 5px;
   margin: 0 auto 0 auto;
   color: grey;
+  text-align:center;
 }
 
 .links_header a:active
@@ -49,6 +50,7 @@
   text-align:center;
   margin-top: -200px;
   margin-bottom: 130px;
+  text-shadow: 3px 3px 10px black;
 }
 
 .body
@@ -60,8 +62,29 @@ p
 { padding: 8px;
 }
 
+#missions, #specifications, #basic_functions
+{ text-decoration: underline;
+  text-align: center;
+}
+
+#relevant_links {text-align:center;}
+
 ol
 { margin-left: 30px;
+}
+
+#missions_first_p
+{ width: 70%;
+  float: left;
+}
+
+#green_leaf_div
+{ float:right;
+}
+
+#green_leaf
+{ height: 70%;
+  width: 70%;
 }
 
 .links_footer
