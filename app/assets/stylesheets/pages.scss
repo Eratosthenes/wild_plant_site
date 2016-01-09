@@ -21,11 +21,22 @@
 { width: 50%;
   padding-top: 5px;
   margin: 0 auto 0 auto;
-  color: white;
+  color: grey;
 }
 
+.links_header a:active
+{ color:white; 
+}
+.links_header a:hover
+{ color:white; 
+  text-decoration: none;
+}
+.links_header a:link
+{ color:white; 
+}
 .links_header a:visited
-{ color:white; }
+{ color:white; 
+}
 
 
 #forest_panorama
