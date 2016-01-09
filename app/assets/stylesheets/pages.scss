@@ -2,7 +2,67 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+*
+{ margin: 0px;
+  padding: 0px;
+}
+
 .container
+{ font-family: sans-serif;
+  width: 100%;
+}
+
+.header
+{ background-color: black;
+  padding-top: 10px;
+}
+
+.links_header
+{ width: 50%;
+  padding-top: 5px;
+  margin: 0 auto 0 auto;
+  color: white;
+}
+
+.links_header a:visited
+{ color:white; }
+
+
+#forest_panorama
+{ padding-top: 10px;
+}
+
+#main_title
+{ color:white;
+  font-size: 4em;
+  text-align:center;
+  margin-top: -200px;
+  margin-bottom: 130px;
+}
+
+.body
 { width: 50%;
   margin: auto;
+}
+
+p
+{ padding: 8px;
+}
+
+ol
+{ margin-left: 30px;
+}
+
+.links_footer
+{ width: 50%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.footer
+{ background-color: #f2f2f2;
+  margin-top: 300px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
